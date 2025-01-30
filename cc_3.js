@@ -19,3 +19,19 @@ let total_qty = order_list_qty.reduce((sum, order_list_qty) => sum + order_list_
 console.log(order_list_qty)
 console.log(total_qty)
 
+
+//Task 3: Employee Performance Tracking Scenario: HR System Tracking Employee Performance
+let employee = {
+    name: "Mickey Mouse",
+    role: "Sales",
+    performanceScore: 7,
+    isActive: true}
+
+    //Task 3: Update performanceScore
+employee.performanceScore = 8
+
+    //Task3: New property promotionEligible (boolean)
+employee.promotionEligible = true
+console.log(employee)
+
+
