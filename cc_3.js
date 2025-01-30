@@ -35,3 +35,23 @@ employee.promotionEligible = true
 console.log(employee)
 
 
+//Task 4: Customer Feedback Records Scenario: Feedback Management
+let feedback = [{
+    customerName: "Daisy Duck",
+    feedbackText: "Very entertaining and uplifting",
+    rating: 8}, {
+        customerName: "Minnie Mouse",
+        feedbackText: "Funny and sweet",
+        rating: 9}, {
+            customerName: "Donald Duck",
+            feedbackText: "Great guy with energy",
+            rating: 6}]
+
+    //Task 4: Adding a new feedback object to the array
+feedback.push({
+    customerName: "Goofy",
+    feedbackText: "Swell services",
+    rating: 8})
+
+console.log(feedback)
+
