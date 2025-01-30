@@ -38,20 +38,31 @@ console.log(employee)
 //Task 4: Customer Feedback Records Scenario: Feedback Management
 let feedback = [{
     customerName: "Daisy Duck",
-    feedbackText: "Very entertaining and uplifting",
+    feedbackText: "Cute and shiny",
     rating: 8}, {
         customerName: "Minnie Mouse",
-        feedbackText: "Funny and sweet",
+        feedbackText: "Soft and sparkly",
         rating: 9}, {
             customerName: "Donald Duck",
-            feedbackText: "Great guy with energy",
+            feedbackText: "Make my beak look smaller",
             rating: 6}]
 
     //Task 4: Adding a new feedback object to the array
 feedback.push({
     customerName: "Goofy",
-    feedbackText: "Swell services",
+    feedbackText: "Comfy and fun",
     rating: 8})
 
 console.log(feedback)
+
+//Task 5: Inventory Management System Scenario: Stock Analysis
+let inventory = {
+    itemName: "Mouse Ears",
+    stockCount: 357,
+    price: 19.99,
+    //Task 5: 
+    calculateTotalValue: function(){
+        return inventory.stockCount*inventory.price; }}
+
+console.log(inventory.calculateTotalValue())
 
